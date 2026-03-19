@@ -13,14 +13,14 @@ int main() {
         v.push_back(x);
 
     }
-    int max = v[0];
+    int maxi = v[0];
 
     for (int i=0;i<n;i++){
-        if(v[i] > max){
-            max = v[i];
+        if(v[i] > maxi){
+            maxi = v[i];
         }
     }
-    cout << "largest element in vector is: " << max << endl;
+    cout << "largest element in vector is: " << maxi << endl;
 
 
     
